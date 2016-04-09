@@ -13,8 +13,9 @@ This is a project seed for nodejs based projects. Its uses express server, handl
 	`sudo npm install -g gulp bower`
 	
 2. Install project dependencies
-	>npm install
-	bower install
+	`npm install`
+
+	`bower install`
 
 ###Running in development mode
 Use the command `gulp dev`
