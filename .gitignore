@@ -1,0 +1,8 @@
+dev/
+dist/
+logs/
+.env
+*.sublime*
+bower_components/
+node_modules/
+*.log

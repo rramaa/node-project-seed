@@ -1,0 +1,25 @@
+{
+  "name": "node.project.seed",
+  "version": "0.1.0",
+  "homepage": "",
+  "authors": [
+    "Ramakrishna <ramakrishna@gmail.com>"
+  ],
+  "description": "An empty website using express+gulp+dotenv+mysql+bower+handlebars",
+  "keywords": [
+    "forum"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.2.3",
+    "bootstrap": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
