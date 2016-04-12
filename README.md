@@ -56,6 +56,6 @@ Run the server using `npm start`
 	.bowerrc                --> bower configuration
 	config.js               --> default config file. 
 	gulpfile.js             --> gulp file
-	sample.env                    --> load environment variables from this file(Rename to .env)
+	sample.env              --> load environment variables from this file(Rename to .env)
 	package.json            --> config file for npm
 	
