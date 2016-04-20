@@ -77,7 +77,7 @@ gulp.task('scripts-prod', ['cleanScripts'], function() {
         .pipe(gulp.dest('dist/scripts/'));
 })
 
-gulp.task('scripts-dev', function() {
+gulp.task('scripts-dev', ['cleanScripts'], function() {
     return gulp.src(['client/assets/js/main.js'])
         .pipe(sourcemaps.init())
         .pipe(babel({ presets: ['es2015'] }))
