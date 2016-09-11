@@ -1,6 +1,19 @@
 #!/usr/bin/env node
-var debug = require('debug')('server');
-var app = require('../server/app');
+var debug = require('debug')('server'),
+    path = require('path');
+require('dotenv').config({path: path.join(__dirname,"../.env")});//Environment dependent configurations
+var app;
+
+// console.log(process.env);
+
+if(typeof process.env.NODE_ENV == "undefined" || process.env.NODE_ENV == "development"){
+	console.log("ASD");
+	require('babel-core/register');
+	app = require('../server/app');
+} else {
+	console.log("ASDsdfds");
+	app = require('../compiled/app');
+}
 
 app.set('port', process.env.PORT || 3006);
 

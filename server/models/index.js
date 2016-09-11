@@ -1,5 +1,5 @@
 var users = require('./db'),
-    posts = require('./apiService'),
+    posts = require('./apiService');
 
 module.exports = {
     apiService:apiService,

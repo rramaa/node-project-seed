@@ -9,7 +9,6 @@ var express = require('express'),
     helpers = require('./helpers'),
     routes = require('./routes'),
     app = express();
-require('dotenv').config({path: path.join(__dirname,"../.env")});//Environment dependent configurations
 
 // view engine setup
 app.engine('hbs', hbs.express3({
