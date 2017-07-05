@@ -17,6 +17,8 @@ This is a project seed for nodejs based projects. Its uses express server, handl
 	`npm install`
 
 	`bower install`
+	
+3. copy sample.env to .env (Store all environment related variables in this file)
 
 ###Running in development mode
 Use the command `gulp dev`
